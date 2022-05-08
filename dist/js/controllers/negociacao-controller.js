@@ -25,7 +25,8 @@ export class NegociacaoController {
         this.limparFormulario();
     }
     ehDiaUtil(data) {
-        return data.getDay() > DiasDaSemana.DOMINGO && data.getDay() < DiasDaSemana.SABADO;
+        return data.getDay() > DiasDaSemana.DOMINGO
+            && data.getDay() < DiasDaSemana.SABADO;
     }
     criaNegociacao() {
         const exp = /-/g;
