@@ -6,7 +6,7 @@
         "noImplicitAny": true,
         "removeComments": true,
         "strictNullChecks": true,
-        "experiementalDecorators": true
+        "experimentalDecorators": true
     },
     "include": ["app/**/*"]
 }
