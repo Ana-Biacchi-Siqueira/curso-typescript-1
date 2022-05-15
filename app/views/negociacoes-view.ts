@@ -1,7 +1,8 @@
 import { View } from './view.js';
 import { Negociacoes } from './../models/negociacoes.js';
 import { escapar } from '../decorators/escapar.js';
-export class NegociacoesView extends View<Negociacoes> {
+
+export class NegociacoesView extends View <Negociacoes> {
 
     @escapar
     protected template(model: Negociacoes): string {
